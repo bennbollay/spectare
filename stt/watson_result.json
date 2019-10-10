@@ -1,0 +1,77 @@
+{
+  "results": [
+    {
+      "alternatives": [
+        {
+          "confidence": 0.991,
+          "transcript": "this is a test this station is conducting a test of the emergency broadcasting system "
+        }
+      ],
+      "final": true
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.999,
+          "transcript": "this is only a test "
+        }
+      ],
+      "final": true
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.959,
+          "transcript": "this is a test of the emergency broadcasting system "
+        }
+      ],
+      "final": true
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.994,
+          "transcript": "the broadcasters of your area involuntary cooperation with federal state and local authorities "
+        }
+      ],
+      "final": true
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.911,
+          "transcript": "have developed a system to keep you informed in the event of an emergency "
+        }
+      ],
+      "final": true
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.842,
+          "transcript": "if this had been an actual emergency the attention signal you've just heard would've been followed by official information news or instructions "
+        }
+      ],
+      "final": true
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.885,
+          "transcript": "the station serves the northeast Illinois area "
+        }
+      ],
+      "final": true
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.999,
+          "transcript": "this concludes this test of the emergency broadcast system "
+        }
+      ],
+      "final": true
+    }
+  ],
+  "result_index": 0
+}

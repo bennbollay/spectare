@@ -1,0 +1,26 @@
+aws s3 mb s3://sai-stt
+aws s3 cp emergency-broadcast-system-test-1983.mp3 s3://sai-stt/
+ibmcloud login
+pip3 install --user --upgrade watson-developer-cloud>=2.4.1
+sudo mkdir /usr/local/Frameworks
+sudo chown benn:admin /usr/local/Frameworks/
+brew update && brew install azure-cli
+brew install nodejs
+npm install --save-dev window filereader
+# read -sp "Azure password: " AZ_PASS && echo && az login -u benn@ai2incubator.com -p $AZ_PASS
+az login
+mkdir azure && cd azure
+wget https://aka.ms/csspeech/jsbrowserpackage -O SpeechSDK-Javascript.zip
+unzip SpeechSDK-Javascript.zip
+ln -s */microsoft.cognitiveservices.speech.sdk.bundle.js .
+
+pip3 install --user google-cloud-storage
+pip3 install --user google-cloud-speech
+
+# Trim to just the first 15 seconds
+ffmpeg -to 15 -i emergency-broadcast-system-test-1983.mp3 emergency-broadcast-system-test-1983.wav
+afconvert -d LEI16 -c 1 --mix emergency-broadcast-system-test-1983.wav emergency-broadcast-system-test-1983.mono.wav
+pip3 install --user google-cloud-vision
+brew install jq
+pip3 install --user uuid
+pip3 install --upgrade google-cloud-translate

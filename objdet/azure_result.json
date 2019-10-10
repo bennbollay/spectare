@@ -1,0 +1,69 @@
+{
+  "categories": [
+    {
+      "name": "outdoor_",
+      "score": 0.00390625,
+      "detail": {
+        "landmarks": []
+      }
+    },
+    {
+      "name": "outdoor_street",
+      "score": 0.33984375,
+      "detail": {
+        "landmarks": []
+      }
+    }
+  ],
+  "color": {
+    "dominantColorForeground": "Brown",
+    "dominantColorBackground": "Brown",
+    "dominantColors": [
+      "Brown"
+    ],
+    "accentColor": "B54316",
+    "isBwImg": false
+  },
+  "description": {
+    "tags": [
+      "building",
+      "outdoor",
+      "street",
+      "city",
+      "people",
+      "busy",
+      "table",
+      "walking",
+      "traffic",
+      "filled",
+      "large",
+      "many",
+      "group",
+      "night",
+      "light",
+      "crowded",
+      "bunch",
+      "standing",
+      "man",
+      "sign",
+      "crowd",
+      "umbrella",
+      "riding",
+      "tall",
+      "woman",
+      "bus"
+    ],
+    "captions": [
+      {
+        "text": "a group of people on a city street at night",
+        "confidence": 0.9122244462952912
+      }
+    ]
+  },
+  "requestId": "732ecbdb-fde9-4516-ab2d-a9a4e9820c0b",
+  "metadata": {
+    "width": 450,
+    "height": 600,
+    "format": "Jpeg"
+  }
+}

@@ -1,0 +1,40 @@
+    1  sudo apt-get update
+    2  apt-get update
+    3  apt-get install build-essential libssl1.0.0 libcurl3 libasound2 wget
+    4  apt-get install -y build-essential libssl1.0.0 libcurl3 libasound2 wget
+    5  export SPEECH_SDK_ROOT="$HOME/speechsdk"
+    6  export SPEECHSDK_ROOT="$HOME/speechsdk"
+    7  mkdir -p "$SPEECHSDK_ROOT"
+    8  wget -O SpeechSDK-Linux.tar.gz https://aka.ms/csspeech/linuxbinary
+    9  tar --strip 1 -xzf SpeechSDK-Linux.tar.gz -C "$SPEECHSDK_ROOT"
+   10  ls
+   11  echo $HOME
+   12  cd root
+   13  ls
+   14  cd speechsdk/
+   15  ls
+   16  vim test.cpp
+   17  apt-get install vim
+   18  exit
+   19  ls
+   20  cd root
+   21  ls
+   22  vim
+   23  ls
+   24  vim test.cpp 
+   25  ls
+   26  mv test.cpp helloworld.cpp
+   27  g++ helloworld.cpp -o helloworld -I "$SPEECHSDK_ROOT/include/cxx_api" -I "$SPEECHSDK_ROOT/include/c_api" --std=c++14 -lpthread -lMicrosoft.CognitiveServices.Speech.core -L "$SPEECHSDK_ROOT/lib/x64" -l:libssl.so.1.0.0 -l:libcurl.so.4 -l:libasound.so.2
+   28  export SPEECHSDK_ROOT=/root/speechsdk
+   29  g++ helloworld.cpp -o helloworld -I "$SPEECHSDK_ROOT/include/cxx_api" -I "$SPEECHSDK_ROOT/include/c_api" --std=c++14 -lpthread -lMicrosoft.CognitiveServices.Speech.core -L "$SPEECHSDK_ROOT/lib/x64" -l:libssl.so.1.0.0 -l:libcurl.so.4 -l:libasound.so.2
+   30  ./helloworld 
+   31  export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:$SPEECHSDK_ROOT/lib/x64"
+   32  ./helloworld 
+   33  ls
+   34  vim helloworld.cpp 
+   35  exit
+   36  ls root/
+   37  cd root/wksp/
+   38  ls
+   39  history
+   40  history > log

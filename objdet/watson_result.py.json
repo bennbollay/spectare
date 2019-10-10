@@ -1,0 +1,46 @@
+{
+  "images": [
+    {
+      "classifiers": [
+        {
+          "classifier_id": "default",
+          "name": "default",
+          "classes": [
+            {
+              "class": "business district",
+              "score": 0.935
+            },
+            {
+              "class": "bazaar",
+              "score": 0.587,
+              "type_hierarchy": "/building/retail store/marketplace/bazaar"
+            },
+            {
+              "class": "marketplace",
+              "score": 0.618
+            },
+            {
+              "class": "retail store",
+              "score": 0.619
+            },
+            {
+              "class": "building",
+              "score": 0.619
+            },
+            {
+              "class": "city",
+              "score": 0.5
+            },
+            {
+              "class": "reddish orange color",
+              "score": 0.871
+            }
+          ]
+        }
+      ],
+      "image": "450px-Broadway_and_Times_Square_by_night.jpg"
+    }
+  ],
+  "images_processed": 1,
+  "custom_classes": 0
+}

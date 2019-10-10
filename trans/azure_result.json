@@ -1,0 +1,14 @@
+[
+    {
+        "detectedLanguage": {
+            "language": "en",
+            "score": 1.0
+        },
+        "translations": [
+            {
+                "text": "Esta es una prueba del sistema de radiodifusión de emergencia.  Esto es sólo una prueba.  Si esto fuera una emergencia real, ya estarías muerto.",
+                "to": "es"
+            }
+        ]
+    }
+]
